@@ -47,8 +47,9 @@ module.exports = {
     }
   },
   facebook: {
-    clientID: process.env.FACEBOOK_ID || 'APP_ID',
-    clientSecret: process.env.FACEBOOK_SECRET || 'APP_SECRET',
+    clientID: process.env.FACEBOOK_ID || '262986944044698',
+    clientSecret: process.env.FACEBOOK_SECRET || '87bed57b18846c7919d526c844fb39a6',
+    // client token a947bdbae7c628b58d403111a1d54af0
     callbackURL: '/api/auth/facebook/callback'
   },
   twitter: {
@@ -68,9 +69,9 @@ module.exports = {
     callbackURL: '/api/auth/linkedin/callback'
   },
   github: {
-    clientID: process.env.GITHUB_ID || 'APP_ID',
-    clientSecret: process.env.GITHUB_SECRET || 'APP_SECRET',
-    callbackURL: '/api/auth/github/callback'
+    clientID: process.env.GITHUB_ID || 'Iv1.8bd2e8e1ed8833ea',
+    clientSecret: process.env.GITHUB_SECRET || 'b693e97f81e4c46f4bb680e9eca6de00a8ca150e',
+    callbackURL: '/api/auth/github/callbackTest'
   },
   paypal: {
     clientID: process.env.PAYPAL_ID || 'CLIENT_ID',
